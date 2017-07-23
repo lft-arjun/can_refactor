@@ -1,6 +1,6 @@
 <?php
 
-namespace Language;
+namespace Language\Api;
 
 class ApiCall
 {
