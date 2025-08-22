@@ -2,7 +2,7 @@
 
 chdir(__DIR__);
 
-include('../vendor/autoload.php');
+require __DIR__ . '/../bootstrap.php';
 
 $languageBatchBo = new \Language\LanguageBatchBo();
 $languageBatchBo->generateLanguageFiles();
