@@ -11,6 +11,7 @@ use Language\Services\ResultCheck;
 class LanguageApplet
 {
 	protected $apiService;
+	protected $applet;
 	
 	public function __construct($applet, ApiService $apiService)
 	{
